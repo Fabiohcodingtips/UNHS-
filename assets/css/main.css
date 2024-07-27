@@ -890,11 +890,22 @@ section,
   width: 100%;
   position: relative;
   padding: 140px 0 0 0;
+  padding-bottom: 30px;
+ 
 }
 
-.hero .container {
+.hero .container .row {
   position: relative;
   z-index: 3;
+
+  
+}
+.division{
+  flex-wrap: wrap;
+}
+.hero .textcontainer{
+  display: grid;
+  place-items: center;
 }
 
 .hero h2 {
@@ -904,7 +915,7 @@ section,
 }
 
 .hero h2 .accent {
-  color: var(--conrast-color);
+  color: var(--contrast-color);
 }
 
 .hero p {
